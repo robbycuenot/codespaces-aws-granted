@@ -1,0 +1,9 @@
+{
+    "aws.telemetry": false,
+    "git.autofetch": "all",
+    "extensions.ignoreRecommendations": true,
+    "prettier.enable": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  
