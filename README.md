@@ -1,4 +1,4 @@
-# codespaces-aws-granted
+# Overview
 
 This repository contains a basic Github Codespaces configuration that is purpose-built for AWS Control Tower / SSO Organizations. The goal is to go from clicking "Create Codespace" to working in the target AWS account / role with the fewest actions possible, while maintaining security best-practices.
 
