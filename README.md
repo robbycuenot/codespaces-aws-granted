@@ -4,7 +4,8 @@ This repository contains a basic Github Codespaces configuration that is purpose
 
 This repo leverages [common-fate/granted](https://github.com/common-fate/granted) for credential management. Most features of granted are working properly; however, the Firefox extension is currently not.
 
-See an example Codespace setup below
+See an example Codespace setup below:
+
 ![demo](https://user-images.githubusercontent.com/51327557/231294401-09a29e28-3c71-416d-89f6-e82cafe2e7f8.gif)
 
 # Setup
