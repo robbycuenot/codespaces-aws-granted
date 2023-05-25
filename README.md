@@ -16,9 +16,9 @@ See an example Codespace setup below:
     1. `AWS_SSO_URL` - ex. https://yourorg.awsapps.com/start
     2. `AWS_REGION` - ex. us-east-1
     3. (optional) `AUTORUN`
-        - Default behavior if AUTORUN is not set is for the script to run upon attaching to the codespace
-        - Set to 'false' to prevent the script from invoking
-        - The 'awslogin' command can be run to manually invoke the script, regardless of AUTORUN value
+        - Default behavior if `AUTORUN` is not set is for the script to run upon attaching to the codespace
+        - Set to `false` to prevent the script from invoking
+        - The `awslogin` command can be run to manually invoke the script, regardless of AUTORUN value
 3. Launch the Codespace!
 
 # Additional Notes
