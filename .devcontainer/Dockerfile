@@ -9,6 +9,10 @@ RUN \
     && echo 'alias assume="source assume"' >> /home/codespace/.bashrc \
     && echo 'alias assume="source assume"' >> /home/codespace/.profile \
     
+    # Enable awslogin command
+    && echo 'alias awslogin="bash $CODESPACE_VSCODE_FOLDER/.devcontainer/postattach.sh --noprompt --force"' >> /home/codespace/.bashrc \
+    && echo 'alias awslogin="bash $CODESPACE_VSCODE_FOLDER/.devcontainer/postattach.sh --noprompt --force"' >> /home/codespace/.profile \
+    
     # Enable AWS CLI autocompletion in Bash
     && echo "complete -C aws_completer aws" >> /home/codespace/.bashrc \
     && echo "complete -C aws_completer aws" >> /home/codespace/.profile \
