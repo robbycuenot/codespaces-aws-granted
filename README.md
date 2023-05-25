@@ -11,7 +11,8 @@ See an example Codespace setup below:
 # Setup
 1. Fork or copy the code from this repo
 2. Add two Codespace Secrets
-    Note: If codespace secrets are unavailable, the script will prompt for these values
+    
+    **Note:** If codespace secrets are unset / unavailable, the script will prompt for these values
     1. `AWS_SSO_URL` - ex. https://yourorg.awsapps.com/start
     2. `AWS_REGION` - ex. us-east-1
     3. (optional) `AUTORUN`
