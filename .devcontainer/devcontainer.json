@@ -1,21 +1,21 @@
 {
-    "dockerFile": "Dockerfile",
-    "features": {
-      "ghcr.io/devcontainers/features/aws-cli:latest": {}
-    },
-    "postAttachCommand": "./.devcontainer/postattach.sh",
-    "customizations": {
-      // Configure properties specific to VS Code.
-      "vscode": {
-        // Add the IDs of extensions you want installed when the container is created.
-        "extensions": [
-          "esbenp.prettier-vscode",
-          "GitHub.copilot",
-          "GitHub.copilot-labs",
-          "GitHub.codespaces",
-          "ms-vscode-remote.remote-containers"
-        ]
-      }
+  "dockerFile": "Dockerfile",
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:latest": {}
+  },
+  "postAttachCommand": "./.devcontainer/postattach.sh",
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "GitHub.copilot",
+        "GitHub.copilot-labs",
+        "GitHub.copilot-chat",
+        "GitHub.codespaces",
+        "ms-vscode-remote.remote-containers"
+      ]
     }
   }
-  
+}
